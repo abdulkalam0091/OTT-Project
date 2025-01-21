@@ -1,0 +1,98 @@
+{
+    "movies": [
+
+
+{
+
+    "title": "Master",
+    "release_year": 2021,
+    "image_url": "https://play-lh.googleusercontent.com/HpPdc0y1XiTKHAb8g-LDImPm4q0S_tp4E5ZGvTunkMXnc-us7Myza45HHk3vhtfgWmZ4mM258zRorQYTZqw",
+    "trailer_url": "https://www.youtube.com/watch?v=gimyCPJkeAs",
+    "popularity": "high",
+    "genre": ["Action Thriller"],
+    "director": "Lokesh Kanagaraj",
+    "writers": [
+      "Lokesh Kanagaraj",
+      "Pon Parthiban",
+      "Rathna Kumar"
+    ],
+    "producers": [
+      "XB Film Creators",
+      "Jagadish Palanisamy"
+    ],
+    "production_company": "Seven Screen Studio",
+    "cast": [
+      "Vijay as JD",
+      "Vijay Sethupathi as Bhavani",
+      "Malavika Mohanan as Charulatha",
+      "Andrea Jeremiah",
+      "Arjun Das",
+      "Shanthanu Bhagyaraj",
+      "Gouri G. Kishan"
+    ],
+    "plot": "An alcoholic professor, JD, takes a three-month teaching job at a juvenile home, only to confront Bhavani, a gangster who exploits the children for his criminal activities. The film showcases their intense clash.",
+    "language": "Tamil",
+    "budget": "₹135–150 crore",
+    "box_office": "₹300+ crore",
+    "awards": [
+      "Won Best Actor (Vijay) at SIIMA 2021",
+      "Nominated for Best Director (Lokesh Kanagaraj) at Vijay Awards"
+    ],
+    "adaptation": "Not applicable",
+    "cinematography": "Sathyan Sooryan",
+    "editor": "Philomin Raj",
+    "music_composer": "Anirudh Ravichander"
+  },
+
+  {
+    "title": "Ponniyin Selvan: I",
+    "release_year": 2022,
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/5/54/Ponniyin_Selvan_I.jpg",
+    "trailer_url": "https://www.youtube.com/watch?v=KPoYb8lvfFs",
+    "popularity": "high",
+    "genre": ["Epic", "Action", "Drama"],
+    "director": "Mani Ratnam",
+    "writers": [
+      "Mani Ratnam",
+      "Elango Kumaravel",
+      "B. Jeyamohan"
+    ],
+    "producers": [
+      "Mani Ratnam",
+      "Subaskaran Allirajah"
+    ],
+    "production_company": ["Madras Talkies", "Lyca Productions"],
+    "cast": [
+      "Vikram as Aditha Karikalan",
+      "Aishwarya Rai Bachchan as Nandini / Mandakini",
+      "Jayam Ravi as Arunmozhi Varman",
+      "Karthi as Vandiyathevan",
+      "Trisha as Kundavai",
+      "Jayaram as Azhwarkadiyan Nambi",
+      "Aishwarya Lekshmi as Poonguzhali",
+      "Sobhita Dhulipala as Vaanathi",
+      "Prakash Raj as Sundara Chola",
+      "Prabhu as Periya Velar",
+      "R. Sarathkumar as Periya Pazhuvettaraiyar",
+      "R. Parthiban as Chinna Pazhuvettaraiyar",
+      "Rahman as Madhurantakan",
+      "Lal as Malayamaan",
+      "Vikram Prabhu as Parthibendra Pallavan"
+    ],
+    "plot": "The film dramatises the early life of Chola prince Arunmozhi Varman, who would become the renowned emperor Rajaraja I. Vandiyathevan, a brave warrior, embarks on a journey across the Chola empire to deliver a message from the crown prince, Aditha Karikalan, as political conspiracies and challenges to the throne unfold.",
+    "language": "Tamil",
+    "budget": "₹500 crore",
+    "box_office": "₹500+ crore",
+    "awards": [
+      "Won Best Music Director (A. R. Rahman) at SIIMA 2023",
+      "Nominated for Best Director (Mani Ratnam) at National Film Awards"
+    ],
+    "adaptation": "Based on the 1955 novel *Ponniyin Selvan* by Kalki Krishnamurthy",
+    "cinematography": "Ravi Varman",
+    "editor": "A. Sreekar Prasad",
+    "music_composer": "A. R. Rahman"
+  }
+  
+    ]
+
+}

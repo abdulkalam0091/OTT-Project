@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(assesment/images/Ott\ background.webp);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+button {
+    background-color:#4caf50 ;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5bbd;
+}
+
+.terms {
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+

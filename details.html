@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+  <link rel="stylesheet" href="details.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div id="movie-detail-container" class="movie-detail-container">
+    <!-- Movie details will be inserted here -->
+  </div>
+
+
+
+
+  
+  <script src="details.js"></script>
+
+  <script>
+
+
+    let movieContainer = document.getElementById('movies');
+    let movieUrl = './details.json';
+
+    fetch(movieUrl)
+      .then((response) => {
+        if (!response.ok) {
+          console.log('Movies not fetched');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        let moviesDetails = data.movies;
+        for (let i = 0; i < moviesDetails.length; i++) {
+          movieContainer.innerHTML += `
+          <div class="movie-card">
+              <img src="${moviesDetails[i].image_url}" class="movie-image" alt="${moviesDetails[i].title}">
+              <div class="movie-content">
+                  <h3>${moviesDetails[i].title}</h3>
+                  <button class="watch-now-btn" onclick="goToMovieDetails(${i})">Watch Now</button>
+              </div>
+          </div>
+        `;
+        }
+      });
+
+    // Function to save the selected movie index in localStorage
+    function goToMovieDetails(index) {
+      localStorage.setItem('movieIndex', index); // Save the movie index to localStorage
+      window.location.href = 'details.html'; // Redirect to the movie details page
+    }
+  </script>
+</body>
+</html>

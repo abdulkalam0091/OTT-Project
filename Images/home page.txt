@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="Movies.json">
+
+  <title>Ott Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-custom">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Movies</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Trend
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-white" aria-disabled="true">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <div class="dropdown">
+            <button class="dropbtn">SignIn/SignUp</button>
+            <div class="dropdown-content">
+              <a href="Sign In.html">Sign In</a>
+              <a href="Sign up.html">Sign up</a>
+
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Slide container -->
+    <div class="slide">
+
+      <!-- Slide item 1 -->
+      <div class="item" style="background-image: url(Images/image\(1\).jpeg);">
+        <div class="content">
+          <div class="name">Goat</div>
+          <div class="des">The Greatest of All Time (also marketed as GOAT) is a 2024 Indian
+            Tamil-language action thriller
+            film[8] directed by Venkat Prabhu and produced by AGS Entertainment.</div>
+
+          <button>See more</button>
+        </div>
+      </div>
+
+      <!-- Slide item 2 -->
+      <div class="item" style="background-image: url(Images/image\(2\).jpeg);">
+        <div class="content">
+          <div class="name">Deadpool</div>
+          <div class="des">English Movies</div>
+          <button>See More</button>
+        </div>
+      </div>
+
+      <!-- Slide item 3 -->
+      <div class="item" style="background-image: url(image\(3\).jpeg);">
+        <div class="content">
+          <div class="name">Goat</div>
+          <div class="des">Good vie</div>
+          <button>See more</button>
+        </div>
+      </div>
+
+      <!-- Slide item 4 -->
+      <div class="item" style="background-image: url(Images/Image\(4\).jpeg);">
+        <div class="content">
+          <div class="name">Goat</div>
+          <div class="des">Good vie</div>
+          <button>See more</button>
+        </div>
+      </div>
+
+      <!-- Slide item 5 -->
+      <div class="item" style="background-image: url(Images/image\(5\).jpeg);">
+        <div class="content">
+          <div class="name">Goat</div>
+          <div class="des">Good vie</div>
+          <button>See more</button>
+        </div>
+      </div>
+
+      <!-- Slide item 6 -->
+      <div class="item" style="background-image: url(Images/image\(6\).jpeg);">
+        <div class="content">
+          <div class="name">Goat</div>
+          <div class="des">Good vie</div>
+          <button>See more</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button">
+      <button class="prev"><i class='bx bx-left-arrow-alt'></i></button>
+      <button class="next"><i class='bx bx-right-arrow-alt'></i></button>
+    </div>
+  </div>

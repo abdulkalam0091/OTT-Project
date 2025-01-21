@@ -1,0 +1,451 @@
+{
+  "movies": [
+    {
+      "title": "Lucky Baskhar",
+      "year": 2024,
+      "language": "Telugu",
+      "genre": ["Period", "Crime", "Drama"],
+      "director": "Venky Atluri",
+      "producers": [
+        "S. Naga Vamsi",
+        "Sai Soujanya"
+      ],
+      "production_companies": [
+        "Sithara Entertainments",
+        "Fortune Four Cinema",
+        "Srikara Studios"
+      ],
+      "cast": [
+        "Dulquer Salmaan",
+        "Meenakshi Chaudhary",
+        "Tinnu Anand",
+        "P. Sai Kumar"
+      ],
+      "plot": "A lower-middle-class man begins engaging in financial scams after struggling to support his family while battling debt and humiliation.",
+      "release_year": 2024,
+      "status": "Upcoming",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMjEzN2ZjYjUtZTI3NC00MzMyLWJiNDAtMDBiZGEzNTBiY2RkXkEyXkFqcGc@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vs6JMdKjoVI"
+    },
+    {
+      "title": "Turbo",
+      "release_year": 2024,
+      "image_url": "https://chinmaynakhwa.wordpress.com/wp-content/uploads/2024/05/wp-1716713509235811576937547855667.jpg?w=960",
+      "trailer_url": "https://www.youtube.com/watch?v=LOE8ESPIMpE",
+      "popularity": "high",
+      "genre": ["Action", "Comedy"],
+      "director": "Vysakh",
+      "writer": "Midhun Manuel Thomas",
+      "producer": "Mammootty",
+      "cast": [
+        "Mammootty",
+        "Raj B. Shetty",
+        "Anjana Jayaprakash"
+      ],
+      "plot": "Aruvipurathu Jose alias Turbo Jose, a jeep driver from Idukki with a habit of getting involved in fights, learns that his best friend Jerry, a bank manager in Chennai, was attacked by henchmen sent by the family of his girlfriend Indulekha, who is also a bank manager of a different bank. Jose arrives at Indulekha's house and stops her engagement, where he takes Indulekha to Jerry's house. However, Jerry refuses to accept Indulekha due to fear of his family and Indulekha goes to Chennai for her job.",
+      "music": "Christo Xavier",
+      "cinematography": "Vishnu Sarma",
+      "editing": "Shameer Muhammed"
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
+      "popularity": "high",
+      "genre": ["Superhero", "Action", "Comedy"],
+      "director": "Shawn Levy",
+      "writers": [
+        "Ryan Reynolds",
+        "Rhett Reese",
+        "Paul Wernick",
+        "Zeb Wells"
+      ],
+      "producers": [
+        "Marvel Studios",
+        "Maximum Effort",
+        "21 Laps Entertainment"
+      ],
+      "distributor": "Walt Disney Studios Motion Pictures",
+      "cast": [
+        "Ryan Reynolds as Wade Wilson / Deadpool",
+        "Hugh Jackman as Logan / Wolverine",
+        "Emma Corrin"
+      ],
+      "plot": "Deadpool learns that the Time Variance Authority plans to destroy his universe and works with a reluctant Wolverine from another universe to stop them.",
+      "mcu_sequel": true,
+      "previous_movies": [
+        "Deadpool (2016)",
+        "Deadpool 2 (2018)"
+      ]
+    },
+    {
+      "title": "Leo",
+      "release_year": 2023,
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Leo_%282023_Indian_film%29.jpg/220px-Leo_%282023_Indian_film%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Po3jStA673E",
+      "popularity": "high",
+      "genre": ["Action", "Thriller"],
+      "director": "Lokesh Kanagaraj",
+      "producer": "Seven Screen Studio",
+      "cast": [
+        "Vijay",
+        "Sanjay Dutt",
+        "Arjun Sarja",
+        "Trisha",
+        "Gautham Vasudev Menon"
+      ],
+      "plot": "Parthi, a café owner and animal rescuer, is pursued by gangsters Antony and Harold Das who suspect him to be Antony's estranged son, Leo.",
+      "inspired_by": "A History of Violence",
+      "lokesh_cinematic_universe": true,
+      "previous_movies_in_lcu": [
+        "Kaithi (2019)",
+        "Vikram (2022)"
+      ]
+    },
+    {
+      "title": "Aavesham",
+      "release_year": 2024,
+      "image_url": "https://i.pinimg.com/originals/3f/ff/d7/3fffd702d48852ede79ed71d04f36a2b.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=QoZwF4jPqmE",
+      "popularity": "high",
+      "genre": ["Action", "Comedy"],
+      "director": "Jithu Madhavan",
+      "producers": [
+        "Nazriya Nazim",
+        "Anwar Rasheed"
+      ],
+      "production_companies": [
+        "Fahadh Faasil and Friends",
+        "Anwar Rasheed Entertainments"
+      ],
+      "cast": [
+        "Fahadh Faasil",
+        "Hipzster",
+        "Mithun Jai Shankar",
+        "Roshan Shanavas"
+      ],
+      "plot": "The film follows three youngsters in Bengaluru who befriend a local gangster to help them take revenge on their school bully.",
+      "language": "Malayalam",
+      "location": "Bengaluru",
+      "theme": "Revenge, Friendship"
+    },
+    {
+      "title": "Dunki",
+      "release_year": 2023,
+      "image_url": "https://assets.telegraphindia.com/telegraph/2023/Dec/1702891206_dunki.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Zd69FfhBmSc",
+      "popularity": "high",
+      "genre": ["Comedy", "Drama"],
+      "director": "Rajkumar Hirani",
+      "producers": [
+        "Rajkumar Hirani",
+        "Jio Studios",
+        "Red Chillies Entertainment"
+      ],
+      "cast": [
+        "Shah Rukh Khan",
+        "Taapsee Pannu",
+        "Vicky Kaushal",
+        "Boman Irani"
+      ],
+      "plot": "The film is based on the illegal immigration technique called 'donkey flight' and follows the journey of individuals seeking better lives abroad.",
+      "theme": "Illegal Immigration, Comedy, Drama",
+      "language": "Hindi",
+      "production_companies": [
+        "Rajkumar Hirani Films",
+        "Jio Studios",
+        "Red Chillies Entertainment"
+      ]
+    },
+    {
+      "title": "Jailer",
+      "release_year": 2023,
+      "image_url": "https://pbs.twimg.com/media/FavdWZjXgAEgY1T?format=jpg&name=4096x4096",
+      "trailer_url": "https://www.youtube.com/watch?v=Y5BeWdODPqo",
+      "popularity": "high",
+      "genre": ["Action", "Comedy"],
+      "director": "Nelson Dilipkumar",
+      "producer": "Kalanithi Maran",
+      "production_company": "Sun Pictures",
+      "cast": [
+        "Rajinikanth",
+        "Vinayakan",
+        "Ramya Krishnan",
+        "Tamannaah Bhatia"
+      ],
+      "plot": "The film follows 'Tiger' Muthuvel Pandian, a retired jailer, who seeks to apprehend an eccentric idol smuggler, Varman.",
+      "theme": "Action, Vigilante Justice, Comedy",
+      "language": "Tamil",
+      "production_companies": [
+        "Sun Pictures"
+      ]
+    },
+    {
+      "title": "Manjummel Boys",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMzk4N2E1NjItNzk4YS00ZDc0LWJkNmYtYjdmM2NmMTJiNmVmXkEyXkFqcGc@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=id848Ww1YLo",
+      "popularity": "high",
+      "genre": ["Survival", "Thriller"],
+      "director": "Chidambaram",
+      "producers": [
+        "Soubin Shahir",
+        "Babu Shahir",
+        "Shawn Antony"
+      ],
+      "production_company": "Parava Films",
+      "cast": [
+        "Soubin Shahir",
+        "Sreenath Bhasi",
+        "Rima Kallingal"
+      ],
+      "plot": "The film tells the story of a group of people surviving a plane crash in a dense forest, struggling to stay alive while confronting the challenges of the wild.",
+      "language": "Malayalam"
+    },
+    {
+      "title": "Fighter",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BNjk2YjI2ZTUtOGUzMC00ZWNkLThiY2EtMzZjZTk0NDNhYjQyXkEyXkFqcGc@._V1_QL75_UX1230_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=dummytrailerlink",
+      "popularity": "high",
+      "genre": ["Action", "Aerial Thriller"],
+      "director": "Siddharth Anand",
+      "producer": [
+        "Viacom18 Studios",
+        "Marflix Pictures"
+      ],
+      "production_company": [
+        "Viacom18 Studios",
+        "Marflix Pictures"
+      ],
+      "cast": [
+        "Hrithik Roshan",
+        "Deepika Padukone",
+        "Anil Kapoor",
+        "Karan Singh Grover",
+        "Akshay Oberoi",
+        "Rishabh Sawhney"
+      ],
+      "plot": "The story follows the journey of Indian Air Force pilots navigating personal challenges, aerial combat, and national security threats. As they battle enemies in the skies, they form an unbreakable bond to protect the nation.",
+      "theme": "Patriotism, Aerial Combat, Action, Friendship",
+      "language": "Hindi",
+      "production_companies": [
+        "Viacom18 Studios",
+        "Marflix Pictures"
+      ]
+    },
+    {
+      "title": "Joker: Folie à Deux",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BYTkyM2JlNjctMmJiOC00ZTZiLWFlNjQtOTMwMjlhNDliZGIwXkEyXkFqcGc@._V1_QL75_UX480_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=dummytrailerlink",
+      "popularity": "high",
+      "genre": ["Psychological Thriller", "Musical", "Drama"],
+      "director": "Todd Phillips",
+      "producer": [
+        "Todd Phillips",
+        "Bradley Cooper",
+        "Emma Tillinger Koskoff"
+      ],
+      "production_company": [
+        "Warner Bros. Pictures"
+      ],
+      "cast": [
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Brendan Gleeson",
+        "Catherine Keener"
+      ],
+      "plot": "Set in the aftermath of his prior crimes, Arthur Fleck, now confined to Arkham State Hospital, awaits trial. Within the institution, he forms a complex romantic bond with Lee, another inmate captivated by his Joker persona, as chaos and their shared delusions spiral out of control.",
+      "theme": "Mental Health, Romance, Crime, Identity",
+      "language": "English",
+      "production_companies": [
+        "Warner Bros. Pictures"
+      ]
+    },
+    {
+      "title": "Premalu",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMjNhYzBjNDUtODJkZi00ZGE0LWE2NDYtNDgwNDQ4NTRiZjE2XkEyXkFqcGc@._V1_QL75_UX480_.jpg",
+      "trailer_url":"https://www.youtube.com/watch?v=rR_2ti4l3nM",
+      "popularity": "medium",
+      "genre": ["Romantic Comedy"],
+      "director": "Girish A. D.",
+      "producers": [
+        "Bhavana Studios",
+        "Fahadh Faasil and Friends",
+        "Working Class Hero"
+      ],
+      "cast": [
+        "Naslen K. Gafoor",
+        "Mamitha Baiju",
+        "Sangeeth Prathap"
+        
+      ],
+      "plot": "Sachin Santhosh, a graduate from Kerala, plans to move to the UK but instead goes to Hyderabad to take a GATE course, where he meets and falls in love with Reenu Roy, an IT company employee.",
+      "language": "Malayalam",
+      "production_companies": [
+        "Bhavana Studios",
+        "Fahadh Faasil and Friends",
+        "Working Class Hero"
+      ],
+      "theme": "Love, Career, Personal Growth"
+    },
+    {
+      "title": "The Goat Life (Aadujeevitham)",
+      "release_year": 2024,
+      "image_url": "https://cinephilsamigo.wordpress.com/wp-content/uploads/2024/03/aadujeevitham-review.jpg?w=828",
+      "trailer_url":"https://www.youtube.com/watch?v=qvsiJKdDxPs",
+      "popularity": "high",
+      "genre": ["Survival Drama"],
+      "director": "Blessy",
+      "writers": [
+        "Benyamin (novel)",
+        "Blessy (screenplay)"
+      ],
+      "producers": [
+        "Blessy",
+        "K. R. Gokul",
+        "Talib Al Balushi"
+      ],
+      "production_companies": [
+        "Co-production between India and the United States"
+      ],
+      "cast": [
+        "Prithviraj Sukumaran as Najeeb",
+        "Jimmy Jean-Louis",
+        "K. R. Gokul",
+        "Amalapaul"
+        
+      ],
+      "plot": "Based on the best-selling Malayalam novel *Aadujeevitham* by Benyamin, the film tells the survival story of Najeeb, a Malayali immigrant laborer in the Gulf. The film explores his struggles to survive under harsh conditions after being abandoned by his employers in the desert.",
+      "language": "Malayalam",
+      "budget": "Not available",
+      "box_office": "Not available",
+      
+      "adaptation": "Based on the 2008 Malayalam novel *Aadujeevitham* by Benyamin",
+      "release_status": "Initially banned in GCC countries except UAE, ban lifted in most countries except Kuwait and Saudi Arabia.",
+      "cinematography": "Not available",
+      "editor": "Not available",
+      "music_composer": "Ar rahman"
+    },
+    {
+      "title": "12th Fail",
+      "release_year": 2023,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "trailer_url":"https://www.youtube.com/watch?v=KjbtuqENvVE",
+      "popularity": "high",
+      "genre": ["Biographical Drama"],
+      "director": "Vidhu Vinod Chopra",
+      "writers": [
+        "Vidhu Vinod Chopra",
+        "Anurag Pathak (book)"
+      ],
+      "producers": [
+        "Vidhu Vinod Chopra"
+      ],
+      "production_company": "Vinod Chopra Films",
+      "cast": [
+        "Vikrant Massey as Manoj Kumar Sharma",
+        "Medha Shankar"
+        
+      ],
+      "plot": "Based on the real-life story of Manoj Kumar Sharma, a man who overcame extreme poverty and hardships to achieve his dream of becoming an Indian Police Service officer. The film portrays his struggles and resilience throughout his journey.",
+      "language": "Hindi",
+      "budget": "Not available",
+      "box_office": "Not available",
+      "awards": [
+        "Nominated for Best Actor (Vikrant Massey) at XYZ Awards"
+      ],
+      "adaptation": "Based on the 2019 non-fiction book *12th Fail* by Anurag Pathak",
+      "cinematography": "Not available",
+      "editor": "Not available",
+      "music_composer": "Not available"
+    },
+
+    {
+      "title": "Kumbalangi Nights",
+      "release_year": 2019,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BOTQxNzcyOTEtNDViNy00MGQ3LTliMjktYmVjOGE4NTM4ODJiXkEyXkFqcGc@._V1_.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=TPJyTkRW3Q8",
+      "popularity": "high",
+      "genre": ["Dark Comedy", "Psychological Drama"],
+      "director": "Madhu C. Narayanan",
+      "producer": ["Fahadh Faasil", "Nazriya Nazim", "Dileesh Pothan", "Syam Pushkaran"],
+      "production_company": ["Fahadh Faasil and Friends", "Working Class Hero"],
+      "cast": [
+        "Soubin Shahir",
+        "Shane Nigam",
+        "Fahadh Faasil",
+        "Sreenath Bhasi",
+        "Anna Ben",
+        "Grace Antony",
+        "Mathew Thomas"
+      ],
+      "plot": "Set in the scenic village of Kumbalangi, the film explores the lives of four brothers navigating fractured relationships, love, and redemption. The narrative interweaves a dark psychological angle through the enigmatic character Shammi.",
+      "theme": "Family, Relationships, Mental Health, Redemption",
+      "language": "Malayalam",
+      "production_companies": [
+        "Fahadh Faasil and Friends",
+        "Working Class Hero"
+      ]
+    },
+
+    {
+      "title": "Bheeshma Parvam",
+      "release_year": 2022,
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoVIqN74B4-7-ZwmvZbobAKjhlQQ3LPcUMuA&s",
+      "trailer_url": "https://www.youtube.com/watch?v=nlEdEpeE8Ic",
+      "popularity": "high",
+      "genre": ["Action", "Thriller"],
+      "director": "Amal Neerad",
+      "producer": "Amal Neerad",
+      "production_company": ["Amal Neerad Productions"],
+      "cast": [
+        "Mammootty",
+        "Soubin Shahir",
+        "Sreenath Bhasi",
+        "Shine Tom Chacko",
+        "Farhaan Faasil"
+        
+      ],
+      "plot": "Set in Kochi during the 1980s, the film revolves around Michael, a powerful patriarch of the Anjootti family. As power struggles and familial conflicts rise, Michael must protect his family while navigating a dangerous world of crime and betrayal.",
+      "theme": "Family, Power, Revenge, Crime",
+      "language": "Malayalam",
+      "production_companies": [
+        "Amal Neerad Productions"
+      ]
+    },
+
+    {
+      "title": "Ajayante Randam Moshanam",
+      "release_year": 2024,
+      "image_url": "https://m.media-amazon.com/images/M/MV5BNmY5NjI5ZTQtNDAyZi00NjgyLWE3NzItODE4OGYxNmFkN2E2XkEyXkFqcGc@._V1_QL75_UX820_.jpg",      "trailer_url": "https://www.youtube.com/watch?v=example_trailer_url",
+      "popularity": "high",
+      "genre": ["Action", "Adventure"],
+      "director": "Jithin Laal",
+      "producers": [
+        "Magic Frames",
+        "UGM Entertainment"
+      ],
+      "cast": [
+        "Tovino Thomas",
+        "Krithi Shetty",
+        "Basil Joseph",
+        "Aishwarya Rajesh",
+        "Surabhi Lakshmi"
+        
+      ],
+      "plot": "Ajayante Randam Moshanam is a gripping action-adventure film set across three timelines, showcasing a hero's journey to reclaim his legacy while battling societal injustices.",
+      "language": "Malayalam",
+      "production_companies": [
+        "Magic Frames",
+        "UGM Entertainment"
+      ],
+      "theme": "Legacy, Courage, Justice"
+    }
+    
+  
+
+  ]
+}
