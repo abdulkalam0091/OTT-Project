@@ -132,7 +132,7 @@ background-color: #000;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 700px;
+  /* margin-top: 700px; */
 }
 
 
@@ -274,14 +274,6 @@ background-color: #000;
 body {
   font-family: Arial, sans-serif;
   background-color: black;
-}
-.genre{
-  width:100%;
-}
-.genre-list{
-  display: flex;
-  overflow-x: scroll;
-  width: 100%;
 }
 /* Movie 
 container style */
@@ -454,37 +446,78 @@ container style */
 }
 
 
-#catogery{
-  display: flex;
-  justify-content: space-evenly;
-  margin-top:150px;
-  display: inline-block; 
-  border: 2px solid #505050; 
-  border-radius: 8px; 
-  padding: 10px; 
-  background-color: #505050; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  
-}
 
-#catogery img{
-width: 500px;
-height: 450px;
 
-}
 
-#catogery a{
-  display: inline-block; 
-  padding: 12px 24px; 
-  font-size: 16px; 
-  font-weight: 600; 
-  color: #fff; 
-  background-color: #007bff; 
-  border: none; 
-  border-radius: 8px; 
+.btn.explore-button {
+  background-color: #28a745; 
+  color: #ffffff; 
+  padding: 8px 12px; 
   text-decoration: none; 
- 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 5px; 
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}
+
+.btn.explore-button:hover {
+  background-color: #218838; 
+}
+
+.hidden {
+  display: none; /* Utility class for hiding sections */
+}
+
+.expanded-items {
+  margin-top: 10px; /* Add spacing between expanded items and the card */
+}
+
+
+
+
+#genre {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.genre-list {
+  display: flex;                /* Align items horizontally */
+  overflow-x: scroll;             /* Enable horizontal scrolling */
+  gap: 20px;                    /* Space between items */
+  padding-bottom: 10px;         /* Optional: Adds some space below the last item */
+  scroll-snap-type: x mandatory; /* Optional: Ensures smooth scrolling to the next item */
+}
+
+.genre-item {
+  flex: 0 0 auto;               /* Prevent items from shrinking and ensure they keep their size */
+  width: 400px;                 /* Set width for each item */
+  scroll-snap-align: start;     /* Optional: Align each item at the start */
+  text-align: center;
+  position: relative;
+}
+
+.genre-item img {
+  width: 100%;                  /* Ensure images fill the container */
+  border-radius: 8px;
+}
+
+.image-description {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.explore-button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+h1, h3 {
+  text-align: center;
 }
