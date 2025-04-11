@@ -75,6 +75,44 @@
     alert(errorMessage)
   });   
         })
+        logoutBtn.addEventListener("click", function () {
+    signOut(auth).then(() => {
+        alert("Logged out successfully");
+        logoutBtn.style.display = "none"; // Hide logout button
+        window.location.href = "login.html"; // Redirect to login page
+    }).catch((error) => {
+        alert(error.message);
+    });
+});
+
+// Check Authentication State
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        logoutBtn.style.display = "block"; // User is logged in
+    } else {
+        logoutBtn.style.display = "none"; // User is logged out
+    }
+});
+
+
+logoutBtn.addEventListener("click", function () {
+    signOut(auth).then(() => {
+        alert("Logged out successfully");
+        logoutBtn.style.display = "none"; // Hide logout button
+        window.location.href = "login.html"; // Redirect to login page
+    }).catch((error) => {
+        alert(error.message);
+    });
+});
+
+// CHECK AUTHENTICATION STATE
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        logoutBtn.style.display = "block"; // User is logged in
+    } else {
+        logoutBtn.style.display = "none"; // User is logged out
+    }
+});
 
       </script>
 </body>
