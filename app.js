@@ -1,15 +1,25 @@
 let next = document.querySelector('.next');
 let prev = document.querySelector('.prev');
 
-next.addEventListener('click', function() {
+
+
+
+function changeNext() {
   let items = document.querySelectorAll('.item');
   document.querySelector('.slide').appendChild(items[0]);
-});
+}
 
-prev.addEventListener('click', function() {
+function changePrev() {
   let items = document.querySelectorAll('.item');
   document.querySelector('.slide').prepend(items[items.length - 1]);
-});
+}
+
+next.addEventListener('click', changeNext);
+setInterval(()=>{
+  changeNext()
+},3000)
+
+prev.addEventListener('click', changePrev);
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -59,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
 
 
 
@@ -186,3 +197,7 @@ const renderByGenres = (movies) => {
     }
   });
 };
+
+
+
+

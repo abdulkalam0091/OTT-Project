@@ -1,11 +1,12 @@
  // Your Firebase project configuration
  const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyCAa6UwjMvGanhRs9xWmB1P_ijt7-y36hA",
+    authDomain: "ott-website-f5752.firebaseapp.com",
+    projectId: "ott-website-f5752",
+    storageBucket: "ott-website-f5752.firebasestorage.app",
+    messagingSenderId: "168991675968",
+    appId: "1:168991675968:web:625104844ebd719d0031a5",
+    measurementId: "G-HSDM0CXR6C"
 };
 
 // Initialize Firebase
